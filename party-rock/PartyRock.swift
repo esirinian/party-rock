@@ -1,0 +1,33 @@
+//
+//  PartyRock.swift
+//  party-rock
+//
+//  Created by Eric Sirinian on 1/10/17.
+//  Copyright © 2017 Eric Sirinian. All rights reserved.
+//
+
+import Foundation
+
+class PartyRock {
+    private var _imageURL: String!
+    private var _videoURL: String!
+    private var _videoTitle: String!
+    
+    var imageURL: String {
+        return _imageURL
+    }
+    
+    var videoURL: String {
+        return _videoURL
+    }
+    
+    var videoTitle: String {
+        return _videoTitle
+    }
+    
+    init(imageURL: String, videoURL: String, videoTitle: String) {
+        _imageURL = imageURL
+        _videoURL = videoURL
+        _videoTitle = videoTitle
+    }
+}
